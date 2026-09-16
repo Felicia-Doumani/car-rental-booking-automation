@@ -1,6 +1,4 @@
-# car-rental-booking-automation
-
-# Car Rental Booking Automation
+# Car Rental Booking Automation 
 
 An automated workflow for handling car rental booking requests received by email.
 
