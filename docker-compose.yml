@@ -1,0 +1,17 @@
+services:
+
+  booking-automation:
+
+    build: .
+
+    container_name: booking-automation
+
+    env_file:
+      - .env
+
+    ports:
+      - "8080:8080"
+
+    volumes:
+      - ./credentials:/app/credentials:ro
+      - ./tokens:/app/tokens
